@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color0--: #bfa4a4;
+    --color1--: #8783d1;
+    --color2--: #AA9ABA;
+    --color3--: #D1ABAD;
+    --color4--: #E3B9BC;
+}
+
+main {
+    margin: auto;
+    background-color: var(--color0--);
+    padding: 10px;
+}
+
+section {
+    margin: auto;
+}
+
+section p {
+    text-align: justify;
+    text-indent: 7px;
+}
+
+section img {
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 1.5em;
+    background-color: var(--color3--);
+}
+
+#Sobre {
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Hobbies {
+    padding: 20px;
+}
+
+#Contato {
+    padding: 20px;
+}
